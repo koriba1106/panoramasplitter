@@ -1,12 +1,12 @@
 :root {
-  --uguisu: #697b43;
-  --uguisu-hover: #586837;
-  --deep: #34452a;
-  --pale: #edf1e5;
-  --paper: #fbfcf8;
-  --ink: #263126;
-  --muted: #5c675a;
-  --line: #d8dfcf;
+  --uguisu: #4d7ea8;
+  --uguisu-hover: #3b688e;
+  --deep: #203547;
+  --pale: #edf3f8;
+  --paper: #f8fbfe;
+  --ink: #1f2c38;
+  --muted: #5a6b78;
+  --line: #d3e1eb;
   --danger: #9e3939;
   --danger-bg: #fbeaea;
 }
@@ -49,7 +49,7 @@ button {
 
 button:hover:not(:disabled) {
   background: var(--pale);
-  border-color: #b8c5a6;
+  border-color: #acc6d9;
 }
 
 button:active:not(:disabled) {
@@ -61,7 +61,7 @@ input:focus-visible,
 select:focus-visible,
 canvas:focus-visible,
 .file-zone:focus-within {
-  outline: 3px solid #8dad4e;
+  outline: 3px solid #6398c7;
   outline-offset: 2px;
 }
 
@@ -175,7 +175,7 @@ header p {
   border: 1px solid var(--line);
   border-radius: 20px;
   padding: clamp(14px, 2.4vw, 22px);
-  box-shadow: 0 5px 22px rgba(38, 49, 38, .04);
+  box-shadow: 0 5px 22px rgba(31, 44, 56, .04);
 }
 
 .panel-head {
@@ -199,7 +199,7 @@ header p {
   justify-content: center;
   gap: 6px;
   width: 100%;
-  border: 2px dashed #9cac82;
+  border: 2px dashed #93b2cb;
   background: var(--pale);
   border-radius: 14px;
   padding: 16px;
@@ -213,7 +213,7 @@ header p {
 
 .file-zone:hover:not(.disabled),
 .file-zone.dragover:not(.disabled) {
-  background: #e2ead3;
+  background: #deeaf4;
   border-color: var(--uguisu);
 }
 
@@ -249,7 +249,7 @@ header p {
   place-items: center;
   position: relative;
   overflow: hidden;
-  background: repeating-conic-gradient(#f3f5ef 0% 25%, #e9ede3 0% 50%) 50% / 24px 24px;
+  background: repeating-conic-gradient(#eff4f8 0% 25%, #e2edf5 0% 50%) 50% / 24px 24px;
   border-radius: 14px;
   border: 1px solid var(--line);
 }
@@ -307,7 +307,7 @@ header p {
   height: auto;
   display: block;
   border-radius: 5px;
-  background: #f3f5ef;
+  background: #eff4f8;
 }
 
 .thumb span {
@@ -428,7 +428,7 @@ input[type="range"] {
 .test-box {
   padding: 10px 12px;
   border-radius: 10px;
-  background: #f4f7ee;
+  background: #eef4f9;
   border: 1px solid var(--line);
   font-size: .8rem;
   color: var(--ink);
